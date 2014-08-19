@@ -1,0 +1,14 @@
+this sample is based on bootstrap. 
+
+sample use:
+
+ In any JS file- refer the JS. Here I am using require  
+  var charcount = require('durandal/plugins/charactercount');
+  
+  and you can enter
+    charcount.characterCount($(<element>), <maxlength>)   - this will get the character count tooltip on the element.
+    
+  
+  assumptions:
+    placement is top.
+    "enter" key is prevented.
